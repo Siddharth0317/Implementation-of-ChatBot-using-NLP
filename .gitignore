@@ -1,0 +1,21 @@
+# Ignore virtual environment folder
+chatbot_env/
+
+# Ignore secret keys
+.env
+*.env
+
+# Ignore model files and logs
+*.pkl
+*.joblib
+*.csv
+*.log
+*.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS & editor-specific
+.DS_Store
+.vscode/
