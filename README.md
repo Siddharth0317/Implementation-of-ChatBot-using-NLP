@@ -1,5 +1,3 @@
-![Chatbot Banner](chatbot_banner.png)
-
 # 🤖 AI Chatbot with NLP, BERT, GPT-3.5 Fallback & Streamlit UI
 
 An advanced conversational chatbot combining traditional machine learning (TF-IDF + Logistic Regression), semantic understanding via BERT (`sentence-transformers`), and fallback to OpenAI GPT-3.5 for unmatched queries. Features a modern, interactive Streamlit web interface.
@@ -41,6 +39,7 @@ chatbot_project/
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repo & create virtual environment
+
 ```bash
 git clone https://github.com/your-username/ai-chatbot-streamlit.git
 cd ai-chatbot-streamlit
@@ -49,12 +48,15 @@ source chatbot_env/bin/activate  # or chatbot_env\Scripts\activate on Windows
 ```
 
 ### 2. Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 3. Configure your environment
+
 Rename `.env.example` to `.env` and add your OpenAI API key:
+
 ```bash
 cp .env.example .env
 ```
@@ -62,6 +64,7 @@ cp .env.example .env
 ---
 
 ## ▶️ Run Locally
+
 ```bash
 streamlit run chatbot_advanced.py
 ```
@@ -76,9 +79,11 @@ streamlit run chatbot_advanced.py
    - Repo: `your-username/ai-chatbot-streamlit`
    - File: `chatbot_advanced.py`
 4. Under **Secrets**, add:
+
 ```ini
 OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
+
 5. Click **Deploy**
 
 ---
@@ -96,6 +101,7 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ## 🏷️ GitHub Topics
 
 Add these to your repository:
+
 ```
 python, chatbot, nlp, machine-learning, ai, streamlit, openai, gpt, transformers, sklearn, bert, sentence-transformers, intelligent-agent
 ```
@@ -105,10 +111,12 @@ python, chatbot, nlp, machine-learning, ai, streamlit, openai, gpt, transformers
 ## 🙌 Credits
 
 Built using:
+
 - 🧠 `nltk`, `scikit-learn`, `sentence-transformers`
 - 🤖 `openai` API (GPT-3.5 Turbo)
 - 🎨 `streamlit` for frontend
 - 🔐 `dotenv` for secure environment config
 
 ---
+
 Made with 💡 by [Siddharth Rahane]
